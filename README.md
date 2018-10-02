@@ -5,7 +5,7 @@ The original code is from "https://github.com/matterport/Mask_RCNN" on Python 3,
 This project aims to addressing the [issue#2][1]. 
 When I start it, I refer to another project by [@RodrigoGantier][2] .
 ## However RodrigoGantier's project has the following problems:
-*  It's codes have few comments and still use the oringal names from [@Matterport][3]'s project, which make the project hard to understand. 
+*  It's codes have few comments and still use the original names from [@Matterport][3]'s project, which make the project hard to understand. 
 *  When I trained this model, I found it's hard to converge as described in [issue#3][4].
 
 ## Requirements
