@@ -2817,7 +2817,11 @@ class MaskRCNN():
         exlude: list of layer names to excluce
         """
         import h5py
-        from keras.engine import topology
+        try:
+            from keras.engine import saving as topology
+        except ImportError:
+            # Keras before 2.2 used the 'topology' namespace.
+            from keras.engine import topology
 
         if exclude:
             by_name = True
